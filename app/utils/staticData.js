@@ -21,7 +21,8 @@ import {
   Tesla,
   Letcollab,
   CovidTracker,
-  Expense
+  Expense,
+  Portfolio
 } from '@/app/assests'
 
 export const skillsData = [
@@ -142,6 +143,14 @@ export const projectsData = [
     github: "https://github.com/vishwani123patlan/covid19-tracker",
     url: "https://demo-covid-tracker.netlify.app",
     logo: CovidTracker
+  },
+  {
+    name: "Portfolio",
+    description: "My Portfolio using NextJs, Html, and Tailwindcss deployed on netlify",
+    technology: ["Reactjs", "Javascript", "Tailwindcss", "HTML"],
+    github: "https://github.com/vishwani123patlan/my-portfolio-nextJS",
+    url: "https://vishwani-potfolio.netlify.app/",
+    logo: Portfolio
   },
   {
     name: "Upwork Clone",

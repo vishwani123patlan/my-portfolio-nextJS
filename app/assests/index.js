@@ -24,6 +24,7 @@ import Expense from "@/app/assests/projects/Expense.png";
 import Fitness from "@/app/assests/projects/Fitness.png";
 import Letcollab from "@/app/assests/projects/Letcollab.png";
 import Tesla from "@/app/assests/projects/Tesla.png";
+import Portfolio from "@/app/assests/projects/Portfolio.png";
 
 //Social Media
 import githublogo from "@/app/assests/githublogo.png"
@@ -55,6 +56,7 @@ export {
   Letcollab,
   CovidTracker,
   Expense,
+  Portfolio,
   githublogo,
   instagram,
   linkedin
