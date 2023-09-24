@@ -6,7 +6,6 @@ import myPhoto from '@/app/assests/myphoto.png'
 import { githublogo, instagram, linkedin } from '../assests';
 import { TypeAnimation } from 'react-type-animation';
 import Link from 'next/link';
-//import VishwaniResume from "@/app/assests/VishwaniPatlanResume.docx"
 
 function HeroSection() {
 
