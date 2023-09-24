@@ -34,8 +34,8 @@ function Project({index, projectData}) {
             <h2 className="text-xl font-extrabold tracking-wider uppercase px-4">Technology Used</h2>
             <div className="flex flex-wrap w-96 gap-4 px-4">
               {
-                projectData.technology.map((technology)=> (
-                  <h1 className="bg-yellow-300 w-fit px-2 rounded-lg px-4">{technology}</h1>
+                projectData.technology.map((technology, index)=> (
+                  <h1 key={index} className="bg-yellow-300 w-fit rounded-lg px-4">{technology}</h1>
                 ))
               }
             </div>
@@ -47,6 +47,7 @@ function Project({index, projectData}) {
                 src={Github}
                 width={48}
                 height={48}
+                alt='github'
               />
               <h2>Github Repo</h2>
             </div>

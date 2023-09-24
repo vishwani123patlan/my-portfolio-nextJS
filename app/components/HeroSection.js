@@ -11,8 +11,8 @@ function HeroSection() {
 
   const downloadResume = () => {
     const downloadLink = document.createElement('a');
-    downloadLink.href = '/VishwaniPatlanResume.docx'; // Path to the file in the public folder
-    downloadLink.download = 'VishwaniPatlanResume.docx'; // The default file name for the download
+    downloadLink.href = "/VishwaniPatlanResume.docx"; // Path to the file in the public folder
+    downloadLink.download = "VishwaniPatlanResume.docx"; // The default file name for the download
     downloadLink.click();
   };
 
@@ -26,9 +26,9 @@ function HeroSection() {
            <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed out once, initially
-              'Vishwani Patlan',
+              "Vishwani Patlan",
               1000, // wait 1s before replacing "Mice" with "Hamsters"
-              'Web Developer',
+              "Web Developer",
             ]}
             wrapper="span"
             speed={20}

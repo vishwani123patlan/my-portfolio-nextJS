@@ -13,8 +13,8 @@ const SkillGrid = () => {
               <h1 className='text-white text-2xl font-semibold'>{skill.category}</h1>
               <div className='flex flex-col md:flex-row mt-8 flex-wrap justify-start items-start gap-6'>
               {
-                skill.skills.map((skill)=>(
-                  <Skill logo={skill.logo} name={skill.name} level={skill.level} />
+                skill.skills.map((skill, index)=>(
+                  <Skill key={index} logo={skill.logo} name={skill.name} level={skill.level} />
                 ))
               }
               </div>

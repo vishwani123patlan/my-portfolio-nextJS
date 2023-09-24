@@ -55,7 +55,7 @@ function MyProjects() {
       
       <div className="flex flex-col justify-center items-center mt-20 space-y-24">
         {projectsData.map((data, index)=> (
-            <Project projectData={data} index={index} />
+            <Project key={index} projectData={data} index={index} />
         ))}
       </div>
       
