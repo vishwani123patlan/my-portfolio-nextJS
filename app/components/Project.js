@@ -60,6 +60,7 @@ function Project({index, projectData}) {
             width={300}
             height={100}
             alt="project"
+            loading="lazy"
             className={`rounded-lg w-[300px] h-[150px] md:w-[700px] md:h-[300px] cursor-pointer ${index%2==0 ? 'rotate-6' : 'rotate-[-6deg]' } h-fit w-fit`}
           />
         </Link>

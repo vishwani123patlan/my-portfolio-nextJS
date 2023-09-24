@@ -9,6 +9,7 @@ const Skill = ({logo, name, level}) => {
         width={300}
         height={200}
         alt="project"
+        loading="lazy"
         className='rounded-md h-40 cursor-pointer'
       />
       <div className='flex justify-between p-3'>

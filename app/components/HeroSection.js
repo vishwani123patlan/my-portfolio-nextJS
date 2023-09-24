@@ -17,7 +17,7 @@ function HeroSection() {
   };
 
   return (
-    <section className="p-32 mt-10">
+    <section className="md:p-32 mt-0 md:mt-10">
       <div className="flex flex-col-reverse lg:flex-row justify-between items-center space-x-5 space-y-8 lg:space-y-0">
         <div className="flex-[.8] flex flex-col space-y-8">
           <h1 className="text-white text-4xl md:text-6xl font-bold text-center md:text-start">
@@ -35,11 +35,11 @@ function HeroSection() {
             repeat={Infinity}
           />
           </h1>
-          <p className="text-white text-base">
+          <p className="text-white text-base px-10 md:px-0">
             I'm experienced web developer.Turning Your Vision into Reality. With a
             passion for crafting compelling online experiences, I bring your web projects to life. From responsive designs to efficient code, I specialize in creating user-friendly websites that captivate and engage. Let's collaborate to turn your vision into a web reality today.
           </p>
-          <div className="my-3 flex flex-col md:flex-row justify-start items-start space-y-3 md:space-y-0 md:space-x-2">
+          <div className="my-3 flex flex-col md:flex-row justify-start items-start space-y-3 md:space-y-0 md:space-x-2 px-10 md:px-0">
             <button className="px-6 py-3 rounded-full bg-white hover:bg-slate-200 font-serif font-normal w-[100%] bg-gradient-to-br from-slate-500 via-yellow-200 to-yellow-500">Hire me</button>
             <button className="px-6 py-3 rounded-full border-[1px] border-white text-white hover:bg-slate-200 w-[100%] hover:text-yellow-500" onClick={downloadResume}>Download CV</button>
           </div>
@@ -53,6 +53,7 @@ function HeroSection() {
                   height={44}
                   alt='github'
                   className="bg-white cursor-pointer"
+                  loading="lazy"
                 />
               </Link>
               <Link href={'https://www.linkedin.com/in/vishwani-patlan-90ab70187/'} target='_blank'>
@@ -62,6 +63,7 @@ function HeroSection() {
                   height={44}
                   alt='linkedin'
                   className="cursor-pointer"
+                  loading="lazy"
                 />
               </Link>
               <Link href={'https://www.instagram.com/vishwani.developer/'} target='_blank'>
@@ -71,6 +73,7 @@ function HeroSection() {
                   height={44}
                   alt='instagram'
                   className="cursor-pointer"
+                  loading="lazy"
                 />
               </Link>
             </div>
@@ -82,7 +85,8 @@ function HeroSection() {
             width={400}
             height={500}
             alt='vishwani patlan'
-            className="rounded-full cursor-pointer transform transition duration-300 hover:scale-110"
+            className="rounded-full w-60 md:w-96 cursor-pointer transform transition duration-300 hover:scale-110"
+            loading="lazy"
           />
         </div>
       </div>
