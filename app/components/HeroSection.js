@@ -21,7 +21,7 @@ function HeroSection() {
       <div className="flex flex-col-reverse lg:flex-row justify-between items-center space-x-5 space-y-8 lg:space-y-0">
         <div className="flex-[.8] flex flex-col space-y-8">
           <h1 className="text-white text-4xl md:text-6xl font-bold text-center md:text-start">
-           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-slate-600 "> Hello, I'm {""}</span>
+           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-slate-600 "> Hello, I'm {}</span>
            <br />
            <TypeAnimation
             sequence={[

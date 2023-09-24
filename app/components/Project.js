@@ -22,6 +22,7 @@ function Project({index, projectData}) {
         scale: scaleProgress,
         opacity: opacityPorgress,
       }}
+      key={index}
     >
     <div key={index} className="flex flex-col-reverse md:flex-row bg-slate-200 rounded-lg py-10 items-center md:p-16 md:h-[450px]">
       <div className="flex-1 flex flex-col space-y-4">

@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <MyProjects />
-      <SkillGrid skills={skills} />
+      <SkillGrid />
     </main>
   )
 }
